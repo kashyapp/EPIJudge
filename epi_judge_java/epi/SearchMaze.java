@@ -33,14 +33,20 @@ public class SearchMaze {
       }
       return true;
     }
+
+    @Override
+    public String toString() {
+      return "{" + x +
+              ", " + y +
+              '}';
+    }
   }
 
   public enum Color { WHITE, BLACK }
 
   public static List<Coordinate> searchMaze(List<List<Color>> maze,
                                             Coordinate s, Coordinate e) {
-    // TODO - you fill in here.
-    return Collections.emptyList();
+    return epi.kashyap.SearchMazeKt.searchMaze(maze, s, e);
   }
   public static boolean pathElementIsFeasible(List<List<Integer>> maze,
                                               Coordinate prev, Coordinate cur) {

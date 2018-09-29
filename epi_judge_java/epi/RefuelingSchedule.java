@@ -11,8 +11,7 @@ public class RefuelingSchedule {
   // city i to the next city.
   public static int findAmpleCity(List<Integer> gallons,
                                   List<Integer> distances) {
-    // TODO - you fill in here.
-    return 0;
+    return new epi.kashyap.Gasup(MPG).solve(gallons, distances);
   }
   @EpiTest(testDataFile = "refueling_schedule.tsv")
   public static void findAmpleCityWrapper(TimedExecutor executor,

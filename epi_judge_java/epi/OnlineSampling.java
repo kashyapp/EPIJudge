@@ -13,8 +13,7 @@ public class OnlineSampling {
   // Assumption: there are at least k elements in the stream.
   public static List<Integer> onlineRandomSample(Iterator<Integer> stream,
                                                  int k) {
-    // TODO - you fill in here.
-    return Collections.emptyList();
+    return epi.kashyap.OnlineSamplingKt.onlineRandomSample(stream, k);
   }
   private static boolean onlineRandomSampleRunner(TimedExecutor executor,
                                                   List<Integer> A, int k)

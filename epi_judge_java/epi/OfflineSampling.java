@@ -8,8 +8,7 @@ import java.util.Collections;
 import java.util.List;
 public class OfflineSampling {
   public static void randomSampling(int k, List<Integer> A) {
-    // TODO - you fill in here.
-    return;
+    epi.kashyap.OfflineSamplingKt.offlineSampling(k, A);
   }
   private static boolean randomSamplingRunner(TimedExecutor executor, int k,
                                               List<Integer> A)

@@ -1,4 +1,5 @@
 package epi;
+import epi.kashyap.Skyline;
 import epi.test_framework.EpiTest;
 import epi.test_framework.EpiUserType;
 import epi.test_framework.GenericTest;
@@ -44,8 +45,8 @@ public class DrawingSkyline {
   @EpiTest(testDataFile = "drawing_skyline.tsv")
 
   public static List<Rectangle> drawingSkylines(List<Rectangle> buildings) {
-    // TODO - you fill in here.
-    return null;
+      Skyline s = new Skyline();
+      return s.epiShim(buildings);
   }
 
   public static void main(String[] args) {

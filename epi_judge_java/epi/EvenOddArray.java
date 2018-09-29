@@ -9,8 +9,7 @@ import java.util.List;
 public class EvenOddArray {
 
   public static void evenOdd(List<Integer> A) {
-    // TODO - you fill in here.
-    return;
+    epi.kashyap.EvenOddArrayKt.evenOdd(A);
   }
   @EpiTest(testDataFile = "even_odd_array.tsv")
   public static void evenOddWrapper(TimedExecutor executor, List<Integer> A)

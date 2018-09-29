@@ -8,8 +8,7 @@ public class NumberOfScoreCombinations {
   public static int
   numCombinationsForFinalScore(int finalScore,
                                List<Integer> individualPlayScores) {
-    // TODO - you fill in here.
-    return 0;
+    return epi.kashyap.NumberOfScoreCombinationsKt.numCombinationsForFinalScore(finalScore, individualPlayScores);
   }
 
   public static void main(String[] args) {

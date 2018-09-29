@@ -6,8 +6,7 @@ public class ThreeSum {
   @EpiTest(testDataFile = "three_sum.tsv")
 
   public static boolean hasThreeSum(List<Integer> A, int t) {
-    // TODO - you fill in here.
-    return true;
+    return epi.kashyap.ThreeSumKt.hasThreeSum(A, t);
   }
 
   public static void main(String[] args) {
@@ -18,3 +17,4 @@ public class ThreeSum {
             .ordinal());
   }
 }
+
